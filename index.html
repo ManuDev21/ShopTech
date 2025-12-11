@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Tech | Tecnología Neon</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand neon-text" href="#">
+                <img src="img/logo.jpg" width="60" height="50" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="fa-solid fa-bars text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="d-flex align-items-center justify-content-center text-center">
+        <div class="overlay"></div>
+        <div class="container content position-relative">
+            <h1 class="display-3 fw-bold flicker-text">EL FUTURO ES AHORA</h1>
+            <p class="lead text-white mb-4">La mejor tecnología con estilo para ti.</p>
+            <a href="#products" class="btn btn-neon">VER PRODUCTOS</a>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4 hidden-element">
+                    <div class="info-card text-center p-4">
+                        <i class="fa-solid fa-microchip icon-neon mb-3"></i>
+                        <h3>Sobre Nosotros</h3>
+                        <p>Somos apasionados por la innovación. Traemos los gadgets más avanzados con un estilo único.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 hidden-element delay-100">
+                    <div class="info-card text-center p-4">
+                        <i class="fa-solid fa-rocket icon-neon mb-3"></i>
+                        <h3>Misión</h3>
+                        <p>Democratizar la tecnología de punta ofreciendo productos de alta calidad a precios competitivos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 hidden-element delay-200">
+                    <div class="info-card text-center p-4">
+                        <i class="fa-solid fa-eye icon-neon mb-3"></i>
+                        <h3>Visión</h3>
+                        <p>Ser la tienda de referencia en tecnología visual y auditiva en todo el continente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title mb-5">NUESTROS <span class="text-neon-blue">PRODUCTOS</span></h2>
+            
+            <div class="row g-4">
+                
+                <div class="col-md-6 col-lg-4 hidden-element">
+                    <div class="card product-card h-100">
+                        <img src="img/m1.jpg" class="card-img-top" alt="Headphones Neon">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Audífonos airpods 2°</h5>
+                            <p class="card-price text-neon-yellow">$110 MXN</p>
+                            <p class="card-text short-desc">mayoreo mayor a 4 piezas precio en $90 - $100 MXN</p>
+                            <div class="d-none full-desc">
+                            audífonos modernos
+                            </div>
+                            
+                            <div class="mt-auto d-grid gap-2">
+                                <button class="btn btn-outline-neon btn-details">Ver detalles</button>
+                                <a href="https://wa.me/5561456717?text=Hola,%20me%20interesa%20el%20producto:%20Audífonos%20CyberBass.%20¿Puedes%20darme%20más%20detalles?" target="_blank" class="btn btn-neon-fill">
+                                    <i class="fa-brands fa-whatsapp"></i> Informes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 hidden-element delay-100">
+                    <div class="card product-card h-100">
+                        <img src="img/m2.jpg" class="card-img-top" alt="Smartphone">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Audifonos airpods 3°</h5>
+                            <p class="card-price text-neon-yellow">$140 MXN</p>
+                            <p class="card-text short-desc">mayoreo mayor a 4 piezas precio en $120 - $130 MXN</p>
+                            <div class="d-none full-desc">
+                            calidad mejorada
+                            </div>
+                            <div class="mt-auto d-grid gap-2">
+                                <button class="btn btn-outline-neon btn-details">Ver detalles</button>
+                                <a href="https://wa.me/5561456717?text=Hola,%20me%20interesa%20el%20producto:%20Smartphone%20X-Pro." target="_blank" class="btn btn-neon-fill">
+                                    <i class="fa-brands fa-whatsapp"></i> Informes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 hidden-element delay-200">
+                    <div class="card product-card h-100">
+                        <img src="img/m3.jpg" class="card-img-top" alt="VR Headset">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Audifonos airpods Pros</h5>
+                            <p class="card-price text-neon-yellow">$160 MXN</p>
+                            <p class="card-text short-desc">mayoreo mayor a 4 piezas precio en $140 - $150 MXN</p>
+                            <div class="d-none full-desc">
+                            audífonos pros mejor calidad
+                            </div>
+                            <div class="mt-auto d-grid gap-2">
+                                <button class="btn btn-outline-neon btn-details">Ver detalles</button>
+                                <a href="https://wa.me/5561456717?text=Hola,%20me%20interesa%20el%20producto:%20Visor%20VR%20Future." target="_blank" class="btn btn-neon-fill">
+                                    <i class="fa-brands fa-whatsapp"></i> Informes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 hidden-element delay-200">
+                    <div class="card product-card h-100">
+                        <img src="img/m4.jpg" class="card-img-top" alt="VR Headset">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Funda Protectora para iphone 12 y 13</h5>
+                            <p class="card-price text-neon-yellow">$120 MXN</p>
+                            <p class="card-text short-desc">mayoreo mayor a 4 piezas precio en $90 - $110 MXN</p>
+                            <div class="d-none full-desc">
+                            Protector para tu celular
+                            </div>
+                            <div class="mt-auto d-grid gap-2">
+                                <button class="btn btn-outline-neon btn-details">Ver detalles</button>
+                                <a href="https://wa.me/5561456717?text=Hola,%20me%20interesa%20el%20producto:%20Visor%20VR%20Future." target="_blank" class="btn btn-neon-fill">
+                                    <i class="fa-brands fa-whatsapp"></i> Informes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 hidden-element delay-200">
+                    <div class="card product-card h-100">
+                        <img src="img/i5.jpeg" class="card-img-top" alt="VR Headset">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Cargador para iphone</h5>
+                            <p class="card-price text-neon-yellow">$150 MXN</p>
+                            <p class="card-text short-desc">mayoreo mayor a 4 piezas precio en $120 - $140 MXN</p>
+                            <div class="d-none full-desc">
+                            Cargador de carga rapida para tu iphone
+                            </div>
+                            <div class="mt-auto d-grid gap-2">
+                                <button class="btn btn-outline-neon btn-details">Ver detalles</button>
+                                <a href="https://wa.me/5561456717?text=Hola,%20me%20interesa%20el%20producto:%20Visor%20VR%20Future." target="_blank" class="btn btn-neon-fill">
+                                    <i class="fa-brands fa-whatsapp"></i> Informes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="contact-box p-5 hidden-element">
+                        <h2 class="text-center mb-4 text-white">CONTÁCTANOS</h2>
+                        <form id="whatsappForm">
+                            <div class="mb-3">
+                                <label class="text-neon-blue">Nombre</label>
+                                <input type="text" id="nombre" class="form-control neon-input" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="text-neon-blue">Teléfono</label>
+                                <input type="tel" id="telefono" class="form-control neon-input" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="text-neon-blue">Correo</label>
+                                <input type="email" id="correo" class="form-control neon-input" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="text-neon-blue">Mensaje</label>
+                                <textarea id="mensaje" rows="4" class="form-control neon-input" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-neon w-100">ENVIAR A WHATSAPP <i class="fa-brands fa-whatsapp"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="5561456717" class="social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/suppliers_of_all_kinds?igsh=cGcxZWM3eW90MXFo" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="text-muted small">&copy; 2025 Shop Tech Todos los derechos reservados | Manuel Rodriguez Calderon</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="productModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content neon-modal">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title w-100 text-center text-neon-blue fw-bold" id="modalTitle">Nombre Producto</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" class="img-fluid rounded mb-3 shadow-neon" alt="">
+                    <h3 id="modalPrice" class="text-neon-yellow mb-3"></h3>
+                    <p id="modalDesc" class="text-white"></p>
+                </div>
+                <div class="modal-footer border-0 justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a id="modalWhatsapp" href="#" target="_blank" class="btn btn-neon-fill">
+                        Comprar en WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
