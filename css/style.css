@@ -223,3 +223,20 @@ h1, h2, h3, h4, h5 {
     border: 2px solid var(--neon-blue);
     box-shadow: 0 0 30px var(--neon-blue);
 }
+
+/* --- ESTILOS EXTRA PARA EL CARRUSEL --- */
+.carousel-inner .card-img-top {
+    height: 250px;       /* Mantiene la misma altura que tus otros productos */
+    object-fit: cover;   /* Evita que la imagen se estire feo */
+    width: 100%;
+}
+
+/* Opcional: Ajustar las flechas del carrusel para que no choquen con el borde */
+.carousel-control-prev, .carousel-control-next {
+    width: 15%;
+}
+
+.text-noprice{
+    text-decoration: line-through;
+    color: #ff4d4d;
+}
